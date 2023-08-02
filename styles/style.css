@@ -298,6 +298,54 @@ h1, p {
     margin-top: 8px;
 }
 
-.thesisExhibit-right {
-    margin: 0 5px;
+.play-list-container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.play-list-container:hover {
+    background-color: #D8D8D8;
+    cursor: pointer;
+}
+
+.video-cover img {
+    max-width: 100%;
+    height: auto;
+    padding: 16px;
+}
+
+.video-titles {
+    justify-content: center;
+}
+
+.video-titles h1 {
+    font-size: 1.6vw;
+    width: 80%;
+}
+
+.video-titles p {
+    font-size: 1.1vw;
+    color: var(--pContentColor);
+    margin-top: 8px;
+    width: 75%;
+}
+
+/* ===== Footer Style ===== */
+
+.copyright {
+    padding: 16px 24px 5vw 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright p {
+    color: var(--ButtonHover);
+    font-size: 1vw;
+}
+
+.copyright div a {
+    color: var(--ButtonHover);
+    text-decoration: none;
+    margin: 5px;
+    font-size: 1vw;
 }

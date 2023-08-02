@@ -87,5 +87,52 @@
     width: 85%;
   }
 
+  /* ===== Section Thesis exhibit Style ===== */
+  
+  .thesisExhibit-header h1 {
+    margin: 3vw auto 1vw auto;
+    font-size: 4vw;
+  }
+
+  .thesisExhibit-container {
+    grid-template-columns: 1fr;
+    padding: 1vw auto 3vw auto;
+  }
+
+  .thesisExhibit-left {
+    padding: 0;
+  }
+
+  .video-container {
+    padding-bottom: 1.8vw;
+  }
+
+  .video-description-container h1 {
+    font-size: 4vw;
+  }
+
+  .video-description-container p {
+    font-size: 2.2vw;
+    width: 90%;
+    margin-top: 8px;
+  }
+
+  .thesisExhibit-right {
+    display: none;
+  }
+
+  /* ===== Footer Style ===== */
+  .copyright {
+    padding: 16px 24px 5vw 24px;
+  }
+
+  .copyright p {
+    font-size: 1.5vw;
+  }
+
+  .copyright div a {
+    margin: 2px;
+    font-size: 1.5vw;
+  }
 }
   

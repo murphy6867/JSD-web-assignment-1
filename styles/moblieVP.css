@@ -162,5 +162,55 @@
     display: none;
   }
 
-}
+
+  /* ===== Section Thesis exhibit Style ===== */
   
+  .thesisExhibit-container {
+    border: none;
+  }
+
+  .thesisExhibit-header h1 {
+    margin: 32px auto 16px auto;
+    font-size: 8vw;
+  }
+
+  .thesisExhibit-container {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .thesisExhibit-left {
+    padding: 0;
+  }
+
+  .video-container {
+    padding-bottom: 0;
+  }
+
+  .video-description-container h1 {
+    display: none;
+  }
+
+  .video-description-container p {
+    display: none;
+  }
+
+  .thesisExhibit-right {
+    display: none;
+  }
+
+  /* ===== Footer Style ===== */
+  .copyright {
+    margin-top: 24px;
+    padding: 16px auto;
+  }
+
+  .copyright p {
+    font-size: 2.9vw;
+    color: #4A4A4A;
+  }
+
+  .copyright div a {
+    display: none;
+  }
+}
