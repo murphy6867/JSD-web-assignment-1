@@ -1,0 +1,28 @@
+@media only screen and (max-width: 599px) {
+    
+  /* ===== Header & Navbar Style ===== */
+  
+  .navbar-container  {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-academy-container {
+    display: none;
+  }
+
+  .navbar-list-container {
+    display: none;
+  }
+  
+  .navbar-mobile-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .navbar-mobile-container img {
+    width: 32px;
+  }
+}
+  
