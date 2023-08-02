@@ -75,6 +75,10 @@ h1, p {
     color: var(--textColor);
 }
 
+.navbar-list li a:hover {
+    font-weight: 600;
+}
+
 .navbar-mobile-container {
     display: none;
 }
