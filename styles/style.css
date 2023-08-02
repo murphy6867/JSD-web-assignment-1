@@ -262,3 +262,42 @@ h1, p {
     margin: 8px 0;
     text-transform: uppercase;
 }
+
+/* ===== Section Thesis exhibit Style ===== */
+
+.thesisExhibit-header h1 {
+    text-align: center;
+    margin: 32px auto 16px auto;
+    font-size: var(--hSection);
+}
+
+.thesisExhibit-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 16px 24px 32px 24px;
+    border-bottom: 1px solid #dcd9d9;
+}
+
+.thesisExhibit-left {
+    padding: 0 24px 24px 0;
+}
+
+.video-container {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 24px;
+}
+
+.video-description-container h1 {
+    font-size: 2.5vw;
+}
+
+.video-description-container p {
+    font-size: var(--pSection);
+    width: 84%;
+    margin-top: 8px;
+}
+
+.thesisExhibit-right {
+    margin: 0 5px;
+}
