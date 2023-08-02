@@ -29,5 +29,38 @@
   .banner-left {
     padding: 3vw 2vw;
   }
+
+  .banner-right h1 {
+    font-size: 4vw;
+    width: 100%;
+  }
+
+  .banner-right p {
+    font-size: 2vw;
+    width: 100%;
+  }
+
+  .banner-right a {
+    font-size: 2vw;
+    width: 95%;
+  }
+
+  /* ===== Information Style ===== */
+  .information-text h1 {
+    font-size: 3vw;
+  }
+
+  .information-text p {
+    font-size: 1.5vw;
+  }
+
+  .information-list-text h1 {
+    font-size: 2vw;
+  }
+
+  .information-list-text p,
+  .information-list-text a  {
+    font-size: 1.4vw;
+  }
 }
   

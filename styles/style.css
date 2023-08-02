@@ -1,7 +1,9 @@
 :root {
     --textColor: #4A4A4A;
     --pSize: 1.5vw;
+    --pSection: 1.2vw;
     --hSize: 3.5vw;
+    --hSection: 2.5vw;
     --ButtonHover: #b29c9c;
 }
 
@@ -26,6 +28,10 @@
 .center {
     align-items: center;
     justify-content: center;
+}
+
+h1, p {
+    color: var(--textColor);
 }
 
 /* ===== Header & Navbar Style ===== */
@@ -100,14 +106,12 @@
 .banner-right h1 {
     font-size: var(--hSize);
     font-weight: 900;
-    color: var(--textColor);
     width: 90%;
     line-height: 4vw;
 }
 
 .banner-right p {
     font-size: var(--pSize);
-    color: var(--textColor);
     font-weight: 600;
     width: 70%;
     margin: 2vw 0;
@@ -125,4 +129,80 @@
 
 .banner-right a:hover {
     background-color: var(--ButtonHover);
+}
+
+/* ===== Information Style ===== */
+
+.information-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+    /* left */
+.information-left {
+    border-right: 1px solid #D8D8D8;
+    padding: 2vw 1.5vw;
+}
+
+.information-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.information-text h1 {
+    margin: 1.5vw 0 1vw 0;
+    font-size: var(--hSection);
+}
+
+.information-text p {
+    font-size: var(--pSection);
+    width: 83%;
+    margin-bottom: 2vw;
+}
+
+    /* right */
+.information-right {
+    padding: 2vw 1.5vw;
+}
+
+.information-list {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    border: 1px solid #D8D8D8;
+    margin-bottom: 2px;
+}
+
+.information-list:hover {
+    background-color: #D8D8D8;
+}
+
+.list-image-desktop {
+    width: 100%;
+    height: auto;
+    padding: 1vw;
+}
+
+.list-image-moblie {
+    display: none;
+}
+
+.information-list-text {
+    justify-content: center;
+    padding: 5px;
+}
+
+.information-list-text h1 {
+    font-size: 1.6vw;
+}
+
+.information-list-text p {
+    font-size: var(--pSection);
+    margin: 0.8vw 0;
+}
+
+.information-list-text a {
+    font-size: var(--pSection);
+    font-weight: 600;
+    color: #3187E1;
+    text-decoration: none;
 }

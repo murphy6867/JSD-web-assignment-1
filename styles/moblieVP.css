@@ -64,5 +64,57 @@
     background-color: #4A4A4A;
   }
 
+  /* ===== Information Style ===== */
+
+  .information-container {
+    grid-template-columns: 1fr;
+  }
+
+  .information-left {
+    display: none;
+  }
+
+  .information-right {
+    padding: 16px;
+  }
+
+  .information-list {
+    display: block;
+    border: none;
+    margin: 32px auto;
+  }
+
+  .information-list:hover {
+    background-color: #fff;
+}
+
+  .list-image-desktop {
+    display: none;
+  }
+
+  .list-image-moblie {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .information-list-text {
+    padding-left: 16px;
+  }
+
+  .information-list-text h1 {
+    font-size: 6vw;
+  }
+
+  .information-list-text p {
+    margin: 6px 0;
+  }
+
+  .information-list-text p,
+  .information-list-text a {
+    font-size: 4vw;
+    width: 85%;
+  }
+  
 }
   
