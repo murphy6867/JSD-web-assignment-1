@@ -62,5 +62,30 @@
   .information-list-text a  {
     font-size: 1.4vw;
   }
+
+  /* ===== Start Learning Style ===== */
+  .start-learning-container {
+    padding: 3vw 5vw;
+  }
+  
+  .learning-text h1 {
+    font-size: 4vw;
+    margin-bottom: 2.5vw;
+  }
+
+  .course-details {
+    padding: 2vw 1vw 1.5vw 2vw;
+  }
+
+  .course-details h1 {
+    font-size: 2.3vw;
+  }
+
+  .course-details p {
+    font-size: 1.3vw;
+    line-height: 1.9vw;
+    width: 85%;
+  }
+
 }
   

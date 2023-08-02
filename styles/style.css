@@ -5,6 +5,7 @@
     --hSize: 3.5vw;
     --hSection: 2.5vw;
     --ButtonHover: #b29c9c;
+    --pContentColor: #868686;
 }
 
 * {
@@ -158,6 +159,7 @@ h1, p {
     font-size: var(--pSection);
     width: 83%;
     margin-bottom: 2vw;
+    color: var(--pContentColor);
 }
 
     /* right */
@@ -198,6 +200,7 @@ h1, p {
 .information-list-text p {
     font-size: var(--pSection);
     margin: 0.8vw 0;
+    color: var(--pContentColor);
 }
 
 .information-list-text a {
@@ -205,4 +208,57 @@ h1, p {
     font-weight: 600;
     color: #3187E1;
     text-decoration: none;
+}
+
+/* ===== Start Learning Style ===== */
+
+.start-learning-container {
+    padding: 32px 72px;
+    background-color: #EAEBEC;
+}
+
+.learning-text h1 {
+    font-size: var(--hSection);
+    margin-bottom: 32px;
+}
+
+.learning-buttom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course-container {
+    background-color: #FFF;
+    margin: 1rem;
+    height: auto;
+}
+
+.course-container:hover {
+    cursor: pointer;
+    box-shadow: 10px 15px 32px 7px rgba(0,0,0,0.2);
+}
+
+.course-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.course-details {
+    padding: 16px 16px 24px 16px;
+}
+
+.course-details h1 {
+    font-size: 1.5vw;
+}
+
+.course-details p {
+    font-size: 1vw;
+    width: 63%;
+    line-height: 1.4vw;
+    color: var(--pContentColor);
+}
+
+.course-details :nth-child(2) {
+    margin: 8px 0;
+    text-transform: uppercase;
 }
