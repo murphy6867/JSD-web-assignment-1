@@ -1,6 +1,8 @@
 :root {
     --textColor: #4A4A4A;
-    --pSize: 1.15rem;
+    --pSize: 1.5vw;
+    --hSize: 3.5vw;
+    --ButtonHover: #b29c9c;
 }
 
 * {
@@ -9,10 +11,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
-}
-
-body {
-    background-color: black;
 }
 
 .flex-row {
@@ -32,15 +30,15 @@ body {
 
 /* ===== Header & Navbar Style ===== */
 
-header {
-    background-color: #fff;
-    padding: 0 24px;
-}
-
 .navbar-container {
+    background-color: #fff;
     justify-content: space-between;
     align-items: center;
     min-height: 64px;
+    position: fixed;
+    width: 100%;
+    padding: 0 24px;
+    top: 0;
 }
 
 .academy-logo {
@@ -49,7 +47,7 @@ header {
 }
 
 .logo-academy-container h1 {
-    font-size: 32px;
+    font-size: 2vw;
     text-transform: uppercase;
     color: #000;
 }
@@ -66,10 +64,65 @@ header {
 
 .navbar-list li a {
     text-decoration: none;
-    font-size: var(--pSize);
+    font-size: 1rem;
     color: var(--textColor);
 }
 
 .navbar-mobile-container {
     display: none;
+}
+
+/* ===== Banner Style ===== */
+
+.banner-container {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #D8D8D8;
+}
+
+    /* Left */
+.banner-left {
+    padding: 2rem 1.5rem;
+}
+
+.banner-left img {
+    max-width: 100%;
+    height: auto;
+}
+
+    /* Right */
+.banner-right {
+    padding: 12px;
+    justify-content: center;
+}
+
+.banner-right h1 {
+    font-size: var(--hSize);
+    font-weight: 900;
+    color: var(--textColor);
+    width: 90%;
+    line-height: 4vw;
+}
+
+.banner-right p {
+    font-size: var(--pSize);
+    color: var(--textColor);
+    font-weight: 600;
+    width: 70%;
+    margin: 2vw 0;
+}
+
+.banner-right a {
+    font-size: var(--pSize);
+    padding: 8px 0;
+    width: 70%;
+    text-align: center;
+    background-color: var(--textColor);
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner-right a:hover {
+    background-color: var(--ButtonHover);
 }

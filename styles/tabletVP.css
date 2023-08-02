@@ -24,5 +24,10 @@
   .navbar-mobile-container img {
     width: 32px;
   }
+
+  /* ===== Banner Style ===== */
+  .banner-left {
+    padding: 3vw 2vw;
+  }
 }
   
